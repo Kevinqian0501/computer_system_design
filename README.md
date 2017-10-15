@@ -6,14 +6,14 @@ Those material is based on CS110 of stanford university
 
 **Overview of Linux Filesystems**
 
-* Linux and C libraries for file manipulation: **`stat`**, `**struct** **stat**`, **`open`**, **`close`**, **`read`**, **`write`**, **`readdir`**, **`struct`** `**diren****t**`, file descriptors, regular files, directories, soft and hard links, programmatic manipulation of them, implementation of **`ls`**, **`cp`**, **`cat`**, etc.
-* naming, abstraction and layering concepts in systems as a means for managing complexity, blocks, `**i****node**`s, **`inode`** pointer structure, **`inode`** as abstraction over blocks, direct blocks, indirect blocks, doubly indirect blocks, design and implementation of a file system.
+* Linux and C libraries for file manipulation: **`stat`**, **`struct`** **`stat`**, **`open`**, **`close`**, **`read`**, **`write`**, **`readdir`**, **`struct`** **`diren`** **`t`**, file descriptors, regular files, directories, soft and hard links, programmatic manipulation of them, implementation of **`ls`**, **`cp`**, **`cat`**, etc.
+* naming, abstraction and layering concepts in systems as a means for managing complexity, blocks, **`i`** **`node`**s, **`inode`** pointer structure, **`inode`** as abstraction over blocks, direct blocks, indirect blocks, doubly indirect blocks, design and implementation of a file system.
 * additional systems examples that rely on naming, abstraction, modularity, and layering, including DNS, TCP/IP, network packets, databases, HTTP, REST, descriptors and **`pid`**s.
 * building modular systems with simultaneous goals of simplicity of implementation, fault tolerance, and flexibility of interactions.
 
 **Multiprocessing and Exceptional Control Flow**
 
-* introduction to multiprocessing, **`fork`**, `**wait****pid**`, **`execvp`**, process ids, inter-process communication, context switches, user versus supervisor mode.
+* introduction to multiprocessing, **`fork`**, **`wait`** **`pid`**, **`execvp`**, process ids, inter-process communication, context switches, user versus supervisor mode.
 * protected address spaces, virtual memory, main memory as cache, virtual to physical address mapping.
 * concurrency versus parallelism, multiple cores versus multiple processors, concurrency issues with multiprocessing.
 * interrupts, faults, systems calls, signals, design and implementation of a simple shell.
